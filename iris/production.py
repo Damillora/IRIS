@@ -13,4 +13,6 @@ DATABASES = {
     }
 }
 
-ALLOWED_HOSTS = [ os.getenv('IRIS_WEB_URL') ]
+ALLOWED_HOSTS = [ os.getenv('IRIS_HOST') ]
+
+CSRF_TRUSTED_ORIGINS = [ os.getenv('IRIS_WEB_URL') ]
