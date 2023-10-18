@@ -18,9 +18,9 @@ from django.contrib import admin
 from django.urls import include, path
 
 
-admin.site.site_title = 'Iris site admin'
-admin.site.site_header = 'Iris administration'
-admin.site.index_title = 'Iris administration'
+admin.site.site_title = 'IRIS site admin'
+admin.site.site_header = 'IRIS administration'
+admin.site.index_title = 'IRIS administration'
 
 urlpatterns = [
     path('', include('home.urls')),
